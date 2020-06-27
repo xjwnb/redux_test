@@ -12,7 +12,8 @@ function App() {
     <div className="AppLess">
 {/*       <Input placeholder="请输入" />
       <Button>按钮</Button> */}
-      <Count />
+        <Count />
+      
     </div>
   );
 }
