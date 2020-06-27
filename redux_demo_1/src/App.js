@@ -1,15 +1,18 @@
 import React from 'react';
-import './App.less'
-import {
+// import './App.less'
+
+import Count from './components/count/Count'
+/* import {
   Button,
   Input
-} from 'antd'
+} from 'antd' */
 
 function App() {
   return (
     <div className="AppLess">
-      <Input placeholder="请输入" />
-      <Button>按钮</Button>
+{/*       <Input placeholder="请输入" />
+      <Button>按钮</Button> */}
+      <Count />
     </div>
   );
 }
